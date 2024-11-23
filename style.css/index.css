@@ -1,0 +1,154 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url(/imgs/wp6402685.jpg);
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem; 
+    
+}
+
+.hero_desc {
+    font-size: 2rem;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0cdcc;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+
+.texts{
+    color: #e9a6b1 !important;
+    font-weight: 700;
+}
+
+.togle{
+    background-color: #f0aaa7;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #f7bbb9;
+}
+.servicesText:hover {
+    border: 1px solid #f7bbb9;
+}
+
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #ee9e9b;
+}
+.fab {
+    color: #fff;
+}
+
+
+
+.btn-contact{
+    background-color: #f5bcba !important;
+    font-weight: 700;
+
+}
+
+.btn-contact:hover{
+    background-color: #fff!important;
+    border: 1px solid #f0aaa7 !important;
+    color: #eba9a7 !important;
+}
+
+
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 80px;
+    position: absolute;
+    transform: translate(20%, 80%);
+}
+
+.content h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #f7bbb9;
+}
+
+.content h2:nth-child(2) {
+    color: #f7bbb9;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%, 100% {
+        clip-path: polygon(0% 76%, 79% 74%, 96% 48%, -53% 57%, 111% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0% 60%, 15% 101%, 34% -2%, 51% 188%, 67% -37%, 84% -182%, 100% -40%, 100% -1%, 0% 10%);
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .content h2 {
+        font-size: 60px;
+        margin-left:-11px ;
+        
+    }
+}
+
+@media (max-width: 768px) {
+
+    .content h2 {
+        font-size: 50px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .content h2 {
+        font-size: 40px;
+    }
+}
+    
+
+
